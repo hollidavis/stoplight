@@ -1,0 +1,53 @@
+#bar{
+  height: 200px;
+  width: 120px;
+}
+
+#box{
+  height: 600px;
+  width: 320px;
+  padding-top: 2em;
+}
+
+.bg-black{
+  background-color:black;
+}
+
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.light{
+  height: 175px;
+  width: 175px;
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 10px;
+  background-image: url(dots.png);
+  background-size: contain;
+}
+
+.red{
+  background-color: red;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.green{
+  background-color: green;
+}
+
+.red:hover{
+  filter: drop-shadow(1px 0px 30px red)
+}
+
+.yellow:hover{
+  filter: drop-shadow(1px 0px 30px yellow)
+}
+
+.green:hover{
+  filter: drop-shadow(1px 0px 30px green)
+}
